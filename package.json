@@ -1,0 +1,41 @@
+{
+  "name": "grunt-fontastic",
+  "description": "Update local version of Fontastic.me font",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitaru/grunt-fontastic",
+  "author": {
+    "name": "bitaru",
+    "email": "aiir.diir@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitaru/grunt-fontastic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitaru/grunt-fontastic/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bitaru/grunt-fontastic/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3",
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
