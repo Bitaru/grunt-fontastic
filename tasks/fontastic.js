@@ -63,7 +63,7 @@ module.exports = function(grunt) {
 
     createCSS = function(font, data){
       var content =
-      "@font-face{font-family:\""+font+"\";src:url(\"data:font/opentype;base64,"+new Buffer(data, 'binary').toString('base64')+"\"});";
+      "@font-face{font-family:\""+font+"\";src:url(\"data:font/opentype;base64,"+new Buffer(data, 'binary').toString('base64')+"\");}";
       grunt.file.write(options.base64File, content)
       setReady();
     },
